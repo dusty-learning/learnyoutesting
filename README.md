@@ -18,7 +18,7 @@ You want to make sure you ALWAYS test all of your code as much as possible and f
 
 ### Try to test only your code
 
-If you're using external libraries like a JavaScript framework, or utility library like `underscore` since these are usually already well tested, if not then I may start to question your judgement. 
+If you're using external libraries like a JavaScript framework, or utility library like `underscore` since these are usually already well tested, if not then I may start to question your judgement.
 
 ## Contents
 
@@ -32,6 +32,7 @@ If you're using external libraries like a JavaScript framework, or utility libra
 - Clone the repo
 - Open repo and run `npm i`
 - Run one of the following commands:
-   - `npm run test:simple` - Run the simple tests
-   - `npm run test:complex` - Run the complex tests
+   - `npm run test:01` - Run the simple tests
+   - `npm run test:02-user` - Run the user tests
+   - `npm run test:02-weather` - Run the weather tests
    - `npm test` - Runs all of the example tests
