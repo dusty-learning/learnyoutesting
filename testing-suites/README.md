@@ -17,7 +17,7 @@ Here's a small list of the more popular ones:
 
 Mocha does not **NEED** Chai, however it's recommended.
 
-there's also a third library there called `sinon` which is **optional** however sinon is one of those tools that where I am glad it exists, if using it is required you may need to rethink your code strategy if you're able.
+There's also a third library there called `sinon` which is **optional** however sinon is one of those tools that where I am glad it exists, if using it is required you may need to rethink your code strategy if you're able.
 
 Most of these suites follow a certain syntax known as `BDD` which is a "should" style of syntax which is fine... I guess...
 

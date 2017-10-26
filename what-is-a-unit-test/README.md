@@ -20,9 +20,9 @@ This is probably **THE** most important step make sure your code is testable, th
 
 By that I mean try to make sure the functions you write don't call a kabillion other functions, make sure they don't mutate data passed into it, and make sure they create and send something back (like a function should). This will make your life hell of a lot easier the larger your application gets. 
 
-I will shamelessly throw in that I suggest learning to write code in a functional manner is your best bet. MOVING ON!
+_I will shamelessly throw in that I suggest learning to write code in a functional manner is your best bet. MOVING ON!_
 
-Now when I say untestable, I don't actually mean untestable. Everything is testable it's just a matter of how much you hate yourself.
+**Now when I say untestable, I don't actually mean untestable. Everything is testable it's just a matter of how much you hate yourself.**
 
 Below is untestable code:
 
