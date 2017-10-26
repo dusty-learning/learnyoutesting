@@ -4,7 +4,7 @@
 
 ## Core Concept
 
-Unit testings main purpose is to do one thing, test the code you right
+Unit testings main purpose is to do one thing, test the code you write
 
 No testing it in the browser does't count. The purpose of testing is so later on say you want to add a new feature, or edit a current one you don't have to worry about what it will break, because you just have to run your unit tests and make sure all of your functionality still works as expected.
 
