@@ -8,6 +8,8 @@ var UserSearch = function (name, location) {
   this.location = location;
   this.date = Date.now();
 
+  // This function would essentially be untestable as well without my own modifications to it
+  // I added a callback so we can at least try to test something
   this.getWeather = function (cb) {
     // In order to actually see our results we have to force the find to call our outside callback with data.
     // In a real world setup this might be less than desireable of an outcome.
