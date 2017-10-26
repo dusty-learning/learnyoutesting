@@ -1,5 +1,7 @@
 # Unit Testing
 
+**DO NOTE** This repo covers only testing on the side of JavaScript. (Sorry!)
+
 ## Core Concept
 
 Unit testings main purpose is to do one thing, test the code you right
@@ -20,6 +22,6 @@ You want to make sure you ALWAYS test all of your code as much as possible and f
 ## Contents
 
 - [What is a Unit Test?](https://github.com/dhershman1/learnyoutesting/blob/master/what-is-a-unit-test)
-- [Good Testing](https://github.com/dhershman1/learnyoutesting/blob/master/good-testing)
 - [Testing Suites](https://github.com/dhershman1/learnyoutesting/blob/master/testing-suites)
 - [What is a Tap?](https://github.com/dhershman1/learnyoutesting/blob/master/tap)
+- [How to Use Tape](https://github.com/dhershman1/learnyoutesting/blob/master/tape)
