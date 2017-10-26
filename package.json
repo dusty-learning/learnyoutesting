@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test:01": "tape examples/01-Simple/tests.js",
-    "test:02-user": "tape examples/02-week11-example/user-search/tests.js",
-    "test:02-weather": "tape examples/02-week11-example/weather-admin/tests.js",
+    "test:02-user": "tape examples/02-bad-code/user-search/tests.js",
+    "test:02-weather": "tape examples/02-bad-code/weather-admin/tests.js",
+    "test:03": "tape examples/03-good-code/tests.js",
     "test": "npm-run-all --parallel test:*"
   },
   "repository": {
