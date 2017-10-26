@@ -8,6 +8,7 @@
     "test:02-user": "tape examples/02-bad-code/user-search/tests.js",
     "test:02-weather": "tape examples/02-bad-code/weather-admin/tests.js",
     "test:03": "tape examples/03-good-code/tests.js",
+    "test:04": "tape examples/04-testing-constructors/tests.js",
     "test": "npm-run-all --parallel test:*"
   },
   "repository": {
