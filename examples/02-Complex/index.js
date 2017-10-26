@@ -1,7 +1,9 @@
 module.exports = function () {
   
   var extend = function () {
-   return arguments.reduce((acc, x) => {
+    var args = Array.prototype.slice.call(arguments);
+    
+    return args.reduce((acc, x) => {
       let key = '';
 
       for (key in x) {
@@ -10,17 +12,25 @@ module.exports = function () {
 
       return acc;
     }, {});
-  }
+  };
 
   var addOne = function (param) {
-    if (!isNaN) {
+    if (!isNaN(param)) {
       return Number(param) + 1;
     };
 
     return 'Not a Number Type';
-  }
+  };
+
+  var addEach = function (array) {
+    return array.map(val => {
+      return addOne(val);
+    });
+  };
 
   return {
-    extend: extend
+    extend: extend,
+    addOne: addOne,
+    addEach: addEach
   };
 }

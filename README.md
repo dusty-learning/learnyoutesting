@@ -26,3 +26,12 @@ If you're using external libraries like a JavaScript framework, or utility libra
 - [Testing Suites](https://github.com/dhershman1/learnyoutesting/blob/master/testing-suites)
 - [What is a Tap?](https://github.com/dhershman1/learnyoutesting/blob/master/tap)
 - [How to Use Tape](https://github.com/dhershman1/learnyoutesting/blob/master/tape)
+
+## How To
+
+- Clone the repo
+- Open repo and run `npm i`
+- Run one of the following commands:
+   - `npm run test:simple` - Run the simple tests
+   - `npm run test:complex` - Run the complex tests
+   - `npm test` - Runs all of the example tests
