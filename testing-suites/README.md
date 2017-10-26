@@ -31,4 +31,4 @@ My advice, don't get hung up on it, pick one that fits you best and you understa
 
 `Mocha` requires a bit more to setup like I said a seperate `assertion` library is required so it can be a little more complex, where as suites like `Tape` are just required in and ready to go. 
 
-Why use the ones that require more setup? Well if you prefer the syntax and the way it outputs results, that is a pretty good reason. Sometimes your deploy software requires thigns to format a certain way, so that might limit your choices.
+Why use the ones that require more setup? Well if you prefer the syntax and the way it outputs results, that is a pretty good reason. Sometimes your deploy software requires things to format a certain way, so that might limit your choices.
