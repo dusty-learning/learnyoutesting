@@ -6,18 +6,19 @@
 
 Unit testings main purpose is to do one thing, test the code you write
 
-No testing it in the browser does't count. The purpose of testing is so later on say you want to add a new feature, or edit a current one you don't have to worry about what it will break, because you just have to run your unit tests and make sure all of your functionality still works as expected.
+### Not Testing in the Browser
+
+No testing it in the browser does't count. The purpose of testing is so later on say you want to add/edit a feature, you don't have to worry about what will break. Your tests will verify that all of your functionality is still intact.
 
 It's a good idea to build out your testing setup and environment as you write your code to keeps things on a 1 to 1 basis. This also helps with groups working on the same codebase, if one of your team adds in new code, and it breaks a unit test well I suggest that code doesn't go any further.
 
-Writing tests side by side with your code is the easiest approach it makes sure your code is indeed testable, and stays that way as you advence and your app becomes larger and more complex.
-
-Try not to test libraries or frameworks you've brought in, unless those are not throughly tested themselves. In which case I may question your judgement.
-
-Focus on a single testing file per piece you make, whether its a small utility function, or the logic to run your page. 
+This is also the easiest approach it makes sure your code is indeed testable, and stays that way as you advence and your app becomes larger and more complex.
 
 You want to make sure you ALWAYS test all of your code as much as possible and from as many different use cases that you can think of.
 
+### Try to test only your code
+
+If you're using external libraries like a JavaScript framework, or utility library like `underscore` since these are usually already well tested, if not then I may start to question your judgement. 
 
 ## Contents
 

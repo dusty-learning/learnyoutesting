@@ -55,4 +55,5 @@ The above is testable simply because `addOne` now takes in a value adds one to i
 
 Instead of trying to test `mutating data`, or a fake endpoint. Keep it down to a simply testing `functions` that transforms the data and sends it back or on its way. Remember Mutating in general is bad, try to always avoid it or you're going to have a bad time.
 
-Try to write your code along with your tests to keep it in order, so long as you're able to easily keep pace and your tests are understandable and easy to write you can probably feel good that you're code is A-OK
+Try to write your code along with your tests to keep it in order, so long as you're able to easily keep pace and your tests are understandable and easy to write you can probably feel good that you're code is A-OK.
+
