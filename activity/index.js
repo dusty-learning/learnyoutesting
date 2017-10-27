@@ -33,7 +33,9 @@ var increment = function (val) {
 // Should skip letters or non numerals in the array
 var sum = function (val) {
   return val.reduce(function (a, v) {
-    return a + v;
+    if (isNumber(v)) {
+      return a + Number(v);
+    }
   });
 };
 
