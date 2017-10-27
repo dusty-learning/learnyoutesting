@@ -9,7 +9,7 @@ Here's a small list of the more popular ones:
 - [Jasmine](https://jasmine.github.io/)
 - [Tape](https://github.com/substack/tape)
 
-Mocha does not **NEED** Chai, however is ** DOES NEED** you to require in some kind of assertion library, Chai happens to be the most popular one (because people like to write using BDD format for some reason)
+Mocha does not **NEED** Chai, however is **DOES NEED** you to require in some kind of assertion library, Chai happens to be the most popular one (because people like to write using BDD format for some reason)
 
 Whatever you choose, make sure it best fits you and how you want to work with your code and write your tests.
 
