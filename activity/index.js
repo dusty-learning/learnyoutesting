@@ -1,9 +1,10 @@
-// Should return if a value is a number or not no matter what is passed in
+// Should return if a value is a number type strictly
+// NOTE STRING NUMBERS SHOULD RETURN FALSE
 var isNumber = function (x) {
   return Object.prototype.toString.call(x) === '[object Number]';
 };
 
-// Should return if a value is a string regardless of whats passed in
+// Should return if a value is a string type strictly
 var isString = function (x) {
   return Object.prototype.toString.call(x) === '[object String]';
 };
@@ -28,7 +29,7 @@ var has = function (obj, prop) {
 // Should increment the value by one, or return the value if it isn't a number
 var increment = function (val) {
   if (!isNaN(val)) {
-    return val++;
+    return Number(val) + 1;
   }
 
   return val;
@@ -37,18 +38,24 @@ var increment = function (val) {
 // Should take all the values of the array and add them together
 // Should skip letters or non numerals in the array
 var sum = function (val) {
-  return val.reduce(function (a, v) {
-    if (isNumber(v)) {
-      return a + Number(v);
-    }
-  });
+  if (Array.isArray(val)) {
+    return val.reduce(function (a, v) {
+      if (isNumber(v)) {
+        return a + Number(v);
+      }
+
+      return a;
+    });
+  }
+
+  return val;
 };
 
 // Should take any number of numerical arguments and get their mean value
 var mean = function () {
   var args = Array.prototype.slice.call(arguments);
   var len = args.length;
-  var total = x.reduce(function (a, v) {
+  var total = args.reduce(function (a, v) {
     return a + v;
   });
 
@@ -56,9 +63,9 @@ var mean = function () {
 };
 
 // Should take the two params passed in and create a range from one number to the next
-var range = function (a, b) {
+var range = function (from, to) {
   if (!isNumber(from) && !isNumber(to)) {
-    throw new TypeError('Both arguments to range must be numbers');
+    return 'Both arguments to range must be numbers';
   }
   var result = [];
   var n = from;
@@ -67,6 +74,8 @@ var range = function (a, b) {
     result.push(n);
     n += 1;
   }
+
+  result.push(to);
 
   return result;
 };
@@ -105,7 +114,7 @@ var functionName = function (f) {
 // Should ensure the value passed in is an array no matter what
 // Even if the value is falsey or undefined.
 // Should always return an array
-var ensureArray = function (x) {
+var ensureArray = function (val) {
   if(Array.isArray(val)) {
     return val;
   }
