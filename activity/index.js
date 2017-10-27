@@ -17,7 +17,12 @@ var nth = function (offset, list) {
 
 // Grabs the last index of the given value
 var last = function (x) {
-  return nth(-1, x);  
+  return nth(-1, x);
+};
+
+// Should return true or false based on if the given object contains the prop entered
+var has = function (obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
 };
 
 // Should increment the value by one, or return the value if it isn't a number
@@ -88,11 +93,6 @@ var identical = function (a, b) {
 
   // NaN === NaN
   return a !== a && b !== b;
-};
-
-// Should return true or false based on if the given object contains the prop entered
-var has = function (obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
 };
 
 // Should return back the name of a function passed in

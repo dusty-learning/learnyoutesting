@@ -9,6 +9,7 @@
     "test:02-weather": "tape examples/02-bad-code/weather-admin/tests.js",
     "test:03": "tape examples/03-good-code/tests.js",
     "test:04": "tape examples/04-testing-constructors/tests.js",
+    "test:activity": "tape activity/tests.js | tap-spec",
     "test": "npm-run-all --parallel test:*"
   },
   "repository": {
