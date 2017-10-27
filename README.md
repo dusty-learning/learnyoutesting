@@ -37,5 +37,6 @@ If you're using external libraries like a JavaScript framework, or utility libra
    - `npm run test:02-weather` - Run the weather tests
    - `npm run test:03` - Run the example 3 tests
    - `npm run test:04` - Run the example 4 tests
+   - `npm run test:04:tapspec` - Run the example 4 tests with the tap-spec formatting
    - `npm run test:activity` - Run the activity tests (Uses `tap-spec` formatting)
    - `npm test` - Runs all of the example tests
