@@ -1,6 +1,6 @@
 {
   "name": "learnyoutesting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "repo for testing and how to painlessly achieve it",
   "main": "index.js",
   "scripts": {
@@ -31,12 +31,12 @@
   "homepage": "https://github.com/dhershman1/learnyoutesting#readme",
   "devDependencies": {
     "chai": "4.1.2",
-    "jasmine": "2.8.0",
-    "mocha": "4.0.1",
-    "npm-run-all": "4.1.1",
-    "qunit": "1.0.0",
+    "jasmine": "3.1.0",
+    "mocha": "5.1.1",
+    "npm-run-all": "4.1.2",
+    "qunit": "2.6.0",
     "tap-spec": "4.1.1",
-    "tape": "4.8.0"
+    "tape": "4.9.0"
   },
   "dependencies": {
     "weather-js": "^2.0.0"

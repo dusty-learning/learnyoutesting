@@ -30,7 +30,7 @@ All of the tests need to have a `t.end()` as the very last part of your test. Th
 var test = require('tape');
 
 test('Stop using end', function (t) {
-  t.ok(true, 'always true value!);
+  t.ok(true, 'always true value!');
 
   // Make sure yo put our end in
   t.end();
