@@ -1,0 +1,15 @@
+{
+  "name": "trilogy-titleize",
+  "version": "1.0.0",
+  "description": "titleize activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape index.js | tap-spec"
+  },
+  "author": "Dustin Hershman",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "4.1.1",
+    "tape": "4.9.0"
+  }
+}
