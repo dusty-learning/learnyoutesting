@@ -1,6 +1,6 @@
 # Unit Testing
 
-**DO NOTE** This repo covers only testing on the side of JavaScript. (Sorry!)
+Unit testing in the world of javascript
 
 ## Core Concept
 

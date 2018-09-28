@@ -4,7 +4,7 @@ var extend = function () {
   var args = Array.prototype.slice.call(arguments)
 
   return args.reduce((acc, x) => {
-    let key = ''
+    var key = ''
 
     for (key in x) {
       acc[key] = x[key]
