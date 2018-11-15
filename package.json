@@ -14,7 +14,8 @@
     "test": "npm-run-all --parallel test:*",
     "test:mocha": "mocha examples/01-simple/mocha/tests.js",
     "test:titleize": "tape activity/trilogy-titleize/solved/tests/test.js | tap-spec",
-    "test:disemvowel": "tape activity/trilogy-disemvowel/solved/tests/test.js | tap-spec"
+    "test:disemvowel": "tape activity/trilogy-disemvowel/solved/tests/test.js | tap-spec",
+    "test:tax": "tape activity/trilogy-tax/solved/tests/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
