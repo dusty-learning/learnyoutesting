@@ -39,4 +39,8 @@ If you're using external libraries like a JavaScript framework, or utility libra
    - `npm run test:04` - Run the example 4 tests
    - `npm run test:04:tapspec` - Run the example 4 tests with the tap-spec formatting
    - `npm run test:activity` - Run the activity tests (Uses `tap-spec` formatting)
+   - `npm run test:mocha` - Run the mocha example activity
+   - `npm run test:titleize` - Run the titleize SOLVED unit tests
+   - `npm run test:disemvowel` - Run the disemvowel SOLVED unit tests
+   - `npm run test:tax` - Run the tax SOLVED unit tests
    - `npm test` - Runs all of the example tests
